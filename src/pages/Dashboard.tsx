@@ -16,6 +16,7 @@ import {
 
 export default function Dashboard() {
   const { user, logout } = useContext(AuthContext);
+  
 
   return (
     <Box
@@ -83,7 +84,7 @@ export default function Dashboard() {
             <Box>
               <Typography
                 variant="h4"
-                fontWeight={700}
+                sx={{ fontWeight: 700 }}
               >
                 Welcome Back {user} 👋
               </Typography>
@@ -106,7 +107,7 @@ export default function Dashboard() {
 
                 <Typography
                   variant="h4"
-                  fontWeight={700}
+                  sx={{ fontWeight: 700 }}
                 >
                   1,245
                 </Typography>
@@ -123,7 +124,7 @@ export default function Dashboard() {
 
                 <Typography
                   variant="h4"
-                  fontWeight={700}
+                  sx={{ fontWeight: 700 }}
                 >
                   18
                 </Typography>
@@ -140,7 +141,7 @@ export default function Dashboard() {
 
                 <Typography
                   variant="h4"
-                  fontWeight={700}
+                  sx={{ fontWeight: 700 }}
                 >
                   86
                 </Typography>
@@ -160,7 +161,7 @@ export default function Dashboard() {
         >
           <Typography
             variant="h6"
-            fontWeight={700}
+            sx={{ fontWeight: 700 }}
             gutterBottom
           >
             Recent Activity
